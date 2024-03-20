@@ -1,0 +1,8 @@
+name: EventHub API Tests
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    uses: suborg/java-eventHub/.github/workflows/api-tests.yml@ci
